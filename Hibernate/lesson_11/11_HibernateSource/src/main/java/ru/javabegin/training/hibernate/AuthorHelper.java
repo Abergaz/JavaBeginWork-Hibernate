@@ -59,7 +59,7 @@ public class AuthorHelper {
         Session session = sessionFactory.openSession();
 
         Author a1 = session.get(Author.class, 1L);
-        a1.setName("Лермонтов2");
+        a1.setName("Лермонтов2");//тут ломается кодировка
         a1.setSecondName("12314");
 
         session.beginTransaction();
