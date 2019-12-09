@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - testhibernate@localhost" uuid="94506c53-6ec7-468d-b752-d43bd6a587f1">
+    <database-info product="MySQL" version="5.6.16-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="testhibernate">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="avia"/>
+      <schema id="3" name="information_schema"/>
+      <schema id="4" name="javabegin"/>
+      <schema id="5" name="library"/>
+      <schema id="6" name="mysql"/>
+      <schema id="7" name="performance_schema"/>
+      <schema id="8" name="sakila"/>
+      <schema id="9" name="spring-library"/>
+      <schema id="10" name="springlibrary"/>
+      <schema id="11" name="sys"/>
+      <schema id="12" name="test"/>
+      <schema id="13" name="testschema"/>
+      <schema id="14" name="usersdb"/>
+      <schema id="15" name="world"/>
+      <table id="16" parent="1" name="author"/>
+      <table id="17" parent="1" name="book"/>
+      <column id="18" parent="16" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="19" parent="16" name="name">
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="20" parent="16" name="second_name">
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <key id="21" parent="16" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="22" parent="17" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="23" parent="17" name="author_id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="24" parent="17" name="name">
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="25" parent="17" name="content">
+        <data-type>blob|0</data-type>
+      </column>
+      <key id="26" parent="17" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
