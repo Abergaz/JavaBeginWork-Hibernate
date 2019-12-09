@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="addressbook" uuid="be10e804-9d21-4ed5-afd9-e779476b34ed">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/addressbook.db</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Downloads/javafx_3blok/src/3blok_AddressBookFX_5/libs/sqlite-jdbc-3.8.10.1.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
