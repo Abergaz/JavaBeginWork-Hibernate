@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="SQLite -" uuid="e44ee33f-7db6-4a96-bfdc-1a80f96fed96">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:c:\Users\Tim\IdeaProjects\AddressBookFX_7\db\addressbook.db</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$PROJECT_DIR$/libs/sqlite-jdbc-3.8.10.1.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
