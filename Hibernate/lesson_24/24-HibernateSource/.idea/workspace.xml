@@ -80,7 +80,7 @@
     <favorites_list name="HibernateSource" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -137,7 +137,7 @@
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1815" />
-    <option name="height" value="1099" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -208,6 +207,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,6 +216,7 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="hibernatesource" />
     <property name="JPA.DatabaseSchemaImportDialog" value="94506c53-6ec7-468d-b752-d43bd6a587f1" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="tuple&#9;PSI&#9;JAVA://javax.persistence.Tuple&#10;IntegratorServiceImpl&#9;PSI&#9;JAVA://org.hibernate.integrator.internal.IntegratorServiceImpl&#10;ыуыышщтаф&#9;PSI&#9;JAVA://org.hibernate.SessionFactory&#10;session&#9;PSI&#9;JAVA://org.hibernate.Session" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -649,16 +650,17 @@
       <workItem from="1478420321538" duration="32255000" />
       <workItem from="1552111668388" duration="1272000" />
       <workItem from="1575886451560" duration="115000" />
+      <workItem from="1575891898417" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128942000" />
+    <option name="totallyTimeSpent" value="128944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48770052" visible="true" weight="0.25033557" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48770052" visible="true" weight="0.2536913" />
       <window_info id="Structure" order="1" sideWeight="0.8716577" weight="0.24913694" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
